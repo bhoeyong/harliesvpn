@@ -1,12 +1,12 @@
 {"Server Status":[
 
-{"Server":"SG1","Status":"Online"},
+{"Server":"SG1 Server","Status":"Online"},
 
-{"Server":"SG2","Status":"Online"}
+{"Server":"SG2 Server","Status":"Online"}
 
-{"Server":"SG3","Status":"Online"}
+{"Server":"SG3 Server","Status":"Online"}
 
-{"Server":"SG4","Status":"Online"}
+{"Server":"SG4 Server","Status":"Online"}
 
 
 

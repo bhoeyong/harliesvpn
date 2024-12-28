@@ -1,0 +1,14 @@
+{
+  "Version": "1.1",
+  "Message": "Test configuration",
+  "Servers": [
+    {
+      "Name": "WG 1",
+      "wireguard": "[Interface]\nAddress = 192.168.6.42/32\nDNS = 1.1.1.1\nPrivateKey = SBZfVwupjdDXyYpMim+ChkFpAERg8hXvKgfsQylOlHg=\n[Peer]\npublickey=lRIlp/YRQ81R4dsKEQJDT5/bW7E9mE+PnCs74sRHXCc=\nAllowedIPs = 0.0.0.0/0, ::/0\nEndpoint = 103.231.188.124:1024"
+    },
+    {
+      "Name": "WG 2",
+      "wireguard": "[Interface]\nAddress = 192.168.6.42/32\nDNS = 1.1.1.1\nPrivateKey = SBZfVwupjdDXyYpMim+ChkFpAERg8hXvKgfsQylOlHg=\n[Peer]\npublickey=lRIlp/YRQ81R4dsKEQJDT5/bW7E9mE+PnCs74sRHXCc=\nAllowedIPs = 0.0.0.0/0, ::/0\nEndpoint = 103.231.188.124:1024"
+    }
+  ]
+}

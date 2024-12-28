@@ -12,7 +12,7 @@
     },
     {
       "Name": "WG 3",
-      "wireguard": ""
+      "wireguard": "ABC"
     }
   ]
 }

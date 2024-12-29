@@ -1,6 +1,6 @@
 {\n" +
-  "\"Version\": \"1.3\",\n" +
   "\"Message\": \"Test configuration\",\n" +
+  "\"Version\": \"1.3\",\n" +
   "\"Servers\": [\n" +
     "{\n" +
       "\"Name\": \"WG 1\",\n" +
@@ -8,7 +8,7 @@
     "},\n" +
     "{\n" +
       "\"Name\": \"WG 2\",\n" +
-      "\"wireguard\": \"[Interface]\\nAddress = 192.168.6.42/32\\nDNS = 1.1.1.1\\nPrivateKey = SBZfVwupjdDXyYpMim+ChkFpAERg8hXvKgfsQylOlHg=\\n[Peer]\\npublickey=lRIlp/YRQ81R4dsKEQJDT5/bW7E9mE+PnCs74sRHXCc=\\nAllowedIPs = 0.0.0.0/0, ::/0\\nEndpoint = 10.10.10.10:1024\"\n" +
+      "\"wireguard\": \"[Interface]\\nAddress = 192.168.6.42/32\\nDNS = 1.1.1.1\\nPrivateKey = SBZfVwupjdDXyYpMim+ChkFpAERg8hXvKgfsQylOlHg=\\n[Peer]\\npublickey=lRIlp/YRQ81R4dsKEQJDT5/bW7E9mE+PnCs74sRHXCc=\\nAllowedIPs = 0.0.0.0/0, ::/0\\nEndpoint = 103.231.188.124:1024\"\n" +
     "}\n" +
   "]\n" +
 "}

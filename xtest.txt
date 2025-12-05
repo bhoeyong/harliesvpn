@@ -1,1 +1,43 @@
-Sleep sleeping 
+client
+dev tun
+proto tcp
+remote uso-1.optnl.com 80
+auth-nocache
+resolv-retry infinite
+route-method exe
+resolv-retry infinite
+redirect-gateway def1
+dhcp-option DNS 1.1.1.1
+dhcp-option DNS 8.8.8.8
+cipher AES-128-CBC
+nobind
+persist-key
+persist-tun
+pull-filter ignore "route-ipv6"
+pull-filter ignore "ifconfig-ipv6"
+remote-cert-tls server
+auth-user-pass
+comp-lzo
+verb 3
+<ca>
+-----BEGIN CERTIFICATE-----
+MIIDQDCCAiigAwIBAgITI5QrWkWcWecHTSwj5DbVd+wgvTANBgkqhkiG9w0BAQsF
+ADATMREwDwYDVQQDDAhDaGFuZ2VNZTAeFw0yMzExMjgwNDQyMjlaFw0zMzExMjUw
+NDQyMjlaMBMxETAPBgNVBAMMCENoYW5nZU1lMIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAol41UJ6oZmXsXEI3oaXa+sP/pdrC+ysSqUjSWZK/y0HZSUxD
+W/sKxrtKXIAjCXhD+0l+xLaqKj84VC/9eD3dmaM8AEZS4lWerP/FbpxXLAk0umPs
+Ee2OArWo80fIFAJCWvSqNO+RBYn1RTy4eKrQEdks1IZiPGFHAvvbS7x8MyLeYgf2
+sjy6y0zdWTpw3jpQhHXE14K1a1SFgAPlvl08lz3uj7pi44wPgWhZqy8CDVGzVLCt
+xHzm10TYyJG9XDgS1yjjFKQbwGebjF2db0qcQyScUCB2fodB6TsozJgsivQjXDH1
+JSkT/AV9yyCx2o7xhtXWYNyzwfCzkH3mRpV5MQIDAQABo4GMMIGJMB0GA1UdDgQW
+BBSpv7rc7KH3fsrTsjuZ+GRL3tvLGzBNBgNVHSMERjBEgBSpv7rc7KH3fsrTsjuZ
++GRL3tvLG6EXpBUwEzERMA8GA1UEAwwIQ2hhbmdlTWWCEyOUK1pFnFnnB00sI+Q2
+1XfsIL0wDAYDVR0TBAUwAwEB/zALBgNVHQ8EBAMCAQYwDQYJKoZIhvcNAQELBQAD
+ggEBAC80+ASH874YlzN2WlC/153+dR+kSnbCkAkb9NYyLcqqFX6v22h+QAnEUSGf
+zR8NgeXP51tdgBj6ENtZ2d4vlpw8/+CLlro1nQMxfsGymXGzx+hdy51GYLqeUBMK
+5Y75OfcPLWhS0uLB01fg62470GKNm97svyxqLgyCJ+6I1Y2QmmNIFJGqatzrp01j
+Ma8KFKjRTQo3D/QyFs7OeMhp7C+A9Ro2TvZeMXKsh5nEBMU0DPIa4g1rJ2gfmaul
+ETcgq8jSYX+uHvyuMvoYm8j57iPMCqdUcf/b3fPz16UHLKMTUqFtpOYdZwCPkH59
+uh+srWxFABuBZfyqsGbqPRuOJ54=
+-----END CERTIFICATE-----
+</ca>
